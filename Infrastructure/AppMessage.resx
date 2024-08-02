@@ -1,0 +1,768 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DESC_NOTIFY_BODY_BEFORE_PLAN_CANCEL_PENDING" xml:space="preserve">
+    <value>Hệ thống sẽ tự động huỷ kế hoạch "{0}" của bạn trong khoảng {1} tiếng nữa. Mau vào xác nhận tham gia đi nào.</value>
+  </data>
+  <data name="DESC_NOTIFY_BODY_BEFORE_PLAN_CANCEL_REGISTERING" xml:space="preserve">
+    <value>Hệ thống sẽ tự động huỷ kế hoạch "{0}" của bạn trong khoảng {1} tiếng nữa. Mau vào chốt kế hoạch đi nào.</value>
+  </data>
+  <data name="DESC_NOTIFY_BODY_NEW_ORDER" xml:space="preserve">
+    <value>{0} có đơn hàng mới, mau kiểm tra.</value>
+  </data>
+  <data name="DESC_NOTIFY_BODY_ORDER_CANCEL" xml:space="preserve">
+    <value>{0} đã huỷ đơn hàng {1}</value>
+  </data>
+  <data name="DESC_NOTIFY_BODY_PLAN_BLOCK" xml:space="preserve">
+    <value>Bạn đã bị chặn khỏi kế hoạch "{0}" bởi trưởng đoàn {1}.</value>
+  </data>
+  <data name="DESC_NOTIFY_BODY_PLAN_CANCEL_PENDING" xml:space="preserve">
+    <value>Kế hoạch "{0}" đã bị huỷ vì bạn không xác nhận tham gia trong thời hạn cho phép.</value>
+  </data>
+  <data name="DESC_NOTIFY_BODY_PLAN_CANCEL_REGISTERING" xml:space="preserve">
+    <value>Kế hoạch "{0}" đã bị huỷ. Hệ thống đã hoàn lại số Gcoin bạn đã góp vào kế hoạch (nếu có).</value>
+  </data>
+  <data name="DESC_NOTIFY_BODY_PLAN_CONFIRM" xml:space="preserve">
+    <value>Danh sách thành viên của kế hoạch "{0}" đã được chốt. Hãy xem những người đồng hành cùng bạn là ai nào.</value>
+  </data>
+  <data name="DESC_NOTIFY_BODY_PLAN_DEPART" xml:space="preserve">
+    <value>Chỉ {0} ngày nữa là tới ngày xuất phát của kế hoạch "{1}" rồi. Mau chuẩn bị hành lý nào.</value>
+  </data>
+  <data name="DESC_NOTIFY_BODY_PLAN_DEPART_TODAY" xml:space="preserve">
+    <value>Kế hoạch đi phượt "{0}" sẽ bắt đầu lúc {1} hôm nay. Chúc bạn có 1 chuyến đi vui vẻ.</value>
+  </data>
+  <data name="DESC_NOTIFY_BODY_PLAN_FINISH" xml:space="preserve">
+    <value>BTSS ghi nhận kế hoạch "{0}" đã hoàn tất và hoàn số Gcoin còn lại trong quỹ cho thành viên.</value>
+  </data>
+  <data name="DESC_NOTIFY_BODY_PLAN_FULL" xml:space="preserve">
+    <value>Kế hoạch "{0}" đã đủ người. Mau vào chốt danh sách thành viên đi bồ tèo.</value>
+  </data>
+  <data name="DESC_NOTIFY_BODY_PLAN_INVITE" xml:space="preserve">
+    <value>{0} đã mời bạn tham gia kế hoạch "{1}".</value>
+  </data>
+  <data name="DESC_NOTIFY_BODY_PLAN_REMOVE" xml:space="preserve">
+    <value>Bạn đã bị loại khỏi kế hoạch "{0}" bởi trưởng đoàn {1}.</value>
+  </data>
+  <data name="DESC_NOTIFY_BODY_PLAN_VERIFY" xml:space="preserve">
+    <value>Nhớ check-in xác nhận thực hiện kế hoạch để nhận điểm uy tín nhé.</value>
+  </data>
+  <data name="DESC_NOTIFY_TITLE_BEFORE_PLAN_CANCEL" xml:space="preserve">
+    <value>Kế hoạch sắp bị huỷ.</value>
+  </data>
+  <data name="DESC_NOTIFY_TITLE_NEW_ORDER" xml:space="preserve">
+    <value>Có đơn hàng mới.</value>
+  </data>
+  <data name="DESC_NOTIFY_TITLE_ORDER_CANCEL" xml:space="preserve">
+    <value>Đơn hàng bị huỷ</value>
+  </data>
+  <data name="DESC_NOTIFY_TITLE_PLAN_BLOCK" xml:space="preserve">
+    <value>Bị chặn khỏi kế hoạch.</value>
+  </data>
+  <data name="DESC_NOTIFY_TITLE_PLAN_CANCEL" xml:space="preserve">
+    <value>Kế hoạch bị huỷ.</value>
+  </data>
+  <data name="DESC_NOTIFY_TITLE_PLAN_CONFIRM" xml:space="preserve">
+    <value>Đã chốt danh sách thành viên.</value>
+  </data>
+  <data name="DESC_NOTIFY_TITLE_PLAN_DEPART" xml:space="preserve">
+    <value>Ngày xuất phát đã cận kề.</value>
+  </data>
+  <data name="DESC_NOTIFY_TITLE_PLAN_DEPART_TODAY" xml:space="preserve">
+    <value>Đã tới ngày xuất phát.</value>
+  </data>
+  <data name="DESC_NOTIFY_TITLE_PLAN_FINISH" xml:space="preserve">
+    <value>Kế hoạch hoàn tất.</value>
+  </data>
+  <data name="DESC_NOTIFY_TITLE_PLAN_FULL" xml:space="preserve">
+    <value>Tập trung đông đủ rồi.</value>
+  </data>
+  <data name="DESC_NOTIFY_TITLE_PLAN_INVITE" xml:space="preserve">
+    <value>Có lời mời tham gia kế hoạch.</value>
+  </data>
+  <data name="DESC_NOTIFY_TITLE_PLAN_REMOVE" xml:space="preserve">
+    <value>Bị loại khỏi kế hoạch.</value>
+  </data>
+  <data name="DESC_NOTIFY_TITLE_PLAN_VERIFY" xml:space="preserve">
+    <value>Bạn đến nơi chưa &gt;.&lt;</value>
+  </data>
+  <data name="DESC_ORDER_TRACE_CREATED" xml:space="preserve">
+    <value>Khách tạo đơn hàng.</value>
+  </data>
+  <data name="DESC_TRANSACTION_ORDER_CREATE" xml:space="preserve">
+    <value>Thanh toán đơn hàng của kế hoạch "{0}".</value>
+  </data>
+  <data name="DESC_TRANSACTION_ORDER_REFUND" xml:space="preserve">
+    <value>Hoàn tiền từ đơn hàng.</value>
+  </data>
+  <data name="DESC_TRANSACTION_PLAN_CONFIRM" xml:space="preserve">
+    <value>Bù tiền cho kế hoạch "{0}"</value>
+  </data>
+  <data name="DESC_TRANSACTION_PLAN_JOIN" xml:space="preserve">
+    <value>Đóng quỹ tham gia kế hoạch "{0}".</value>
+  </data>
+  <data name="DESC_TRANSACTION_PLAN_REFUND" xml:space="preserve">
+    <value>Hoàn tiền từ kế hoạch.</value>
+  </data>
+  <data name="DESC_TRANSACTION_TOPUP" xml:space="preserve">
+    <value>Nạp tiền vào ví</value>
+  </data>
+  <data name="ERR_ACCOUNT_AUTHORIZE_FAIL" xml:space="preserve">
+    <value>Email hoặc mật khẩu không chính xác.</value>
+  </data>
+  <data name="ERR_ACCOUNT_BLOCKED" xml:space="preserve">
+    <value>Tài khoản đã bị chặn khỏi hệ thống.</value>
+  </data>
+  <data name="ERR_ACCOUNT_DEVICE_TOKEN_EMPTY" xml:space="preserve">
+    <value>Không tìm thấy mã định danh thiết bị.</value>
+  </data>
+  <data name="ERR_ACCOUNT_EMAIL_INVALID" xml:space="preserve">
+    <value>Địa chỉ email không phù hợp</value>
+  </data>
+  <data name="ERR_ACCOUNT_EMAIL_NOT_FOUND" xml:space="preserve">
+    <value>Không tìm thấy địa chỉ email.</value>
+  </data>
+  <data name="ERR_ACCOUNT_EMAIL_USED" xml:space="preserve">
+    <value>Địa chỉ email đã được sử dụng.</value>
+  </data>
+  <data name="ERR_ACCOUNT_NAME_LENGTH" xml:space="preserve">
+    <value>Độ dài tên người dùng phải trong khoảng {0} - {1} ký tự.</value>
+  </data>
+  <data name="ERR_ACCOUNT_NOT_FOUND" xml:space="preserve">
+    <value>Không tìm thấy thông tin người dùng.</value>
+  </data>
+  <data name="ERR_ACCOUNT_PASSWORD_EMPTY" xml:space="preserve">
+    <value>Mật khẩu không được để trống.</value>
+  </data>
+  <data name="ERR_ACCOUNT_PASSWORD_LENGTH" xml:space="preserve">
+    <value>Độ dài mật khẩu phải từ {0} - {1} ký tự.</value>
+  </data>
+  <data name="ERR_ACCOUNT_PHONE_USED" xml:space="preserve">
+    <value>Số điện thoại này đã được sử dụng.</value>
+  </data>
+  <data name="ERR_ADDRESS_LENGTH" xml:space="preserve">
+    <value>Địa chỉ phải từ {0} - {1} ký tự.</value>
+  </data>
+  <data name="ERR_AUTHORIZE" xml:space="preserve">
+    <value>Không có quyền truy cập.</value>
+  </data>
+  <data name="ERR_BALANCE_NOT_ENOUGH" xml:space="preserve">
+    <value>Số dư không đủ để thanh toán.</value>
+  </data>
+  <data name="ERR_CHANNEL_INVALID" xml:space="preserve">
+    <value>Kênh nhận thông báo không hợp lệ.</value>
+  </data>
+  <data name="ERR_CLAIM_NOT_FOUND" xml:space="preserve">
+    <value>Không tìm thấy thông tin định danh.</value>
+  </data>
+  <data name="ERR_CONFIG_BUDGET_ASSURED_PCT" xml:space="preserve">
+    <value>Giá trị cấu hình hệ số đảm bảo ngân sách kế hoạch chỉ cho phép trong khoảng {0} - {1}.</value>
+  </data>
+  <data name="ERR_CONFIG_DEFAULT_PRESTIGE_POINT" xml:space="preserve">
+    <value>Giá trị cấu hình điểm tin cậy chỉ cho phép trong khoảng {0} - {1}.</value>
+  </data>
+  <data name="ERR_CONFIG_HOLIDAY_LODGING_UP_PCT" xml:space="preserve">
+    <value>Giá trị cấu hình mức tăng giá dịch vụ lưu trú dịp lễ chỉ cho phép trong khoảng {0} - {1}.</value>
+  </data>
+  <data name="ERR_CONFIG_HOLIDAY_MEAL_UP_PCT" xml:space="preserve">
+    <value>Giá trị cấu hình mức tăng giá dịch vụ ăn uống dịp lễ chỉ cho phép trong khoảng {0} - {1}.</value>
+  </data>
+  <data name="ERR_CONFIG_HOLIDAY_RIDING_UP_PCT" xml:space="preserve">
+    <value>Giá trị cấu hình mức tăng giá dịch vụ thuê xe tự lái dịp lễ chỉ cho phép trong khoảng {0} - {1}.</value>
+  </data>
+  <data name="ERR_CONFIG_MISSING" xml:space="preserve">
+    <value>Không tìm thấy tham số cấu hình.</value>
+  </data>
+  <data name="ERR_CONFIG_ORDER_DATE_MIN_DIFF" xml:space="preserve">
+    <value>Giá trị cấu hình khoảng cách ngày đặt dịch vụ tối thiểu chỉ cho phép trong khoảng {0} - {1}.</value>
+  </data>
+  <data name="ERR_CONFIG_TOPUP_OUT_OF_RANGE" xml:space="preserve">
+    <value>Giá trị nạp tiền không hợp lệ.</value>
+  </data>
+  <data name="ERR_CONFIG_TOPUP_VALUE" xml:space="preserve">
+    <value>Giá trị cấu hình tiền nạp chỉ cho phép trong khoảng {0} - {1}.</value>
+  </data>
+  <data name="ERR_COORDINATE_INVALID" xml:space="preserve">
+    <value>Toạ độ không nằm trong vùng hỗ trợ.</value>
+  </data>
+  <data name="ERR_DB_UPDATE" xml:space="preserve">
+    <value>Cập nhật dữ liệu thất bại.</value>
+  </data>
+  <data name="ERR_DESTINATION_ACTIVITY_INVALID" xml:space="preserve">
+    <value>Không tìm thấy hoạt động tương ứng.</value>
+  </data>
+  <data name="ERR_DESTINATION_COMMENT_LENGTH" xml:space="preserve">
+    <value>Bình luận phải từ {0} - {1} ký tự.</value>
+  </data>
+  <data name="ERR_DESTINATION_DESCRIPTION_LENGTH" xml:space="preserve">
+    <value>Mô tả địa điểm phải từ {0} - {1} ký tự.</value>
+  </data>
+  <data name="ERR_DESTINATION_NAME_LENGTH" xml:space="preserve">
+    <value>Tên địa điểm phải từ {0} - {1} ký tự.</value>
+  </data>
+  <data name="ERR_DESTINATION_NOT_FOUND" xml:space="preserve">
+    <value>Không tìm thấy thông tin về địa điểm.</value>
+  </data>
+  <data name="ERR_DESTINATION_SEASON_INVALID" xml:space="preserve">
+    <value>Không tìm thấy mùa tương ứng.</value>
+  </data>
+  <data name="ERR_DESTINATION_TOPOGRAPHIC_INVALID" xml:space="preserve">
+    <value>Không tìm thấy địa hình tương ứng.</value>
+  </data>
+  <data name="ERR_ENUM_GATEWAY" xml:space="preserve">
+    <value>Phương thức thanh toán không phù hợp.</value>
+  </data>
+  <data name="ERR_EVENT_ORDER_PERIOD" xml:space="preserve">
+    <value>Thời gian phục vụ đơn hàng nằm ngoài lịch trình.</value>
+  </data>
+  <data name="ERR_FUNCTION_DOWN" xml:space="preserve">
+    <value>Chức năng này đang bảo trì. Vui lòng thử lại sau.</value>
+  </data>
+  <data name="ERR_IMAGE_COUNT" xml:space="preserve">
+    <value>Cần cung cấp từ {0} - {1} ảnh.</value>
+  </data>
+  <data name="ERR_IMAGE_SOURCE_INVALID" xml:space="preserve">
+    <value>Có ảnh tới từ nguồn không hợp lệ.</value>
+  </data>
+  <data name="ERR_NOT_IMPLEMENTED" xml:space="preserve">
+    <value>Chức năng đang phát triển.</value>
+  </data>
+  <data name="ERR_ORDER_CANCEL_DATE" xml:space="preserve">
+    <value>Đơn hàng chỉ có thể huỷ trong vòng {0} ngày kể từ khi đặt.</value>
+  </data>
+  <data name="ERR_ORDER_CANCEL_REASON_LENGTH" xml:space="preserve">
+    <value>Lý do huỷ đơn phải từ {0} - {1} ký tự.</value>
+  </data>
+  <data name="ERR_ORDER_CANCEL_STATUS" xml:space="preserve">
+    <value>Đơn hàng không thể huỷ sau khi đã được phục vụ.</value>
+  </data>
+  <data name="ERR_ORDER_NOTE_LENGTH" xml:space="preserve">
+    <value>Ghi chú cho đơn hàng tối đa dài {0} ký tự.</value>
+  </data>
+  <data name="ERR_ORDER_NOT_FOUND" xml:space="preserve">
+    <value>Không tìm thấy đơn hàng.</value>
+  </data>
+  <data name="ERR_ORDER_OUT_OF_TIME" xml:space="preserve">
+    <value>Ngày phục vụ đơn gần nhất phải cách hôm nay ít nhất {0} ngày.</value>
+  </data>
+  <data name="ERR_ORDER_PERIOD_INVALID" xml:space="preserve">
+    <value>Không tìm thấy thời gian tương ứng.</value>
+  </data>
+  <data name="ERR_ORDER_PLAN_CANCEL" xml:space="preserve">
+    <value>Kế hoạch đã bị huỷ, không thể đặt hàng/dịch vụ.</value>
+  </data>
+  <data name="ERR_ORDER_PLAN_POST_READY" xml:space="preserve">
+    <value>Kế hoạch đã kết thúc, không thể đặt hàng/dịch vụ.</value>
+  </data>
+  <data name="ERR_ORDER_PLAN_PRE_READY" xml:space="preserve">
+    <value>Chưa chốt danh sách thành viên kế hoạch, không thể đặt hàng/dịch vụ.</value>
+  </data>
+  <data name="ERR_ORDER_PLAN_STARTED" xml:space="preserve">
+    <value>Không thể đặt hàng sau khi kế hoạch đã bắt đầu.</value>
+  </data>
+  <data name="ERR_ORDER_PRODUCT_COUNT" xml:space="preserve">
+    <value>Đơn hàng phải có từ {0} - {1} loại sản phẩm/dịch vụ khác nhau.</value>
+  </data>
+  <data name="ERR_ORDER_PRODUCT_INACTIVE" xml:space="preserve">
+    <value>Có sản phẩm không khả dụng.</value>
+  </data>
+  <data name="ERR_ORDER_PRODUCT_PERIOD" xml:space="preserve">
+    <value>Có sản phẩm/dịch vụ không được phục vụ vào thời gian này trong ngày.</value>
+  </data>
+  <data name="ERR_ORDER_PRODUCT_TYPE_LODGING" xml:space="preserve">
+    <value>Có sản phẩm/dịch vụ không thuộc dịch vụ lưu trú.</value>
+  </data>
+  <data name="ERR_ORDER_PRODUCT_TYPE_MEAL" xml:space="preserve">
+    <value>Có sản phẩm/dịch vụ không thuộc dịch vụ ăn uống.</value>
+  </data>
+  <data name="ERR_ORDER_PRODUCT_TYPE_RIDING" xml:space="preserve">
+    <value>Có sản phẩm/dịch vụ không thuộc dịch vụ thuê xe.</value>
+  </data>
+  <data name="ERR_ORDER_PROVIDER_DIFF" xml:space="preserve">
+    <value>Các sản phẩm/dịch vụ không đến từ cùng 1 nhà cung cấp.</value>
+  </data>
+  <data name="ERR_ORDER_SERVE_DATE" xml:space="preserve">
+    <value>Ngày phục vụ đơn hàng phải nằm trong khoảng {0} - {1}.</value>
+  </data>
+  <data name="ERR_ORDER_STATUS_INVALID" xml:space="preserve">
+    <value>Trạng thái đơn hàng không hợp lệ.</value>
+  </data>
+  <data name="ERR_ORDER_TYPE_INVALID" xml:space="preserve">
+    <value>Loại đơn hàng không thích hợp.</value>
+  </data>
+  <data name="ERR_OTP_EXPIRY" xml:space="preserve">
+    <value>OTP cũ chưa hết hạn sử dụng. Không thể tạo OTP mới.</value>
+  </data>
+  <data name="ERR_OTP_INVALID" xml:space="preserve">
+    <value>OTP không hợp lệ.</value>
+  </data>
+  <data name="ERR_OTP_LENGTH" xml:space="preserve">
+    <value>OTP phải gồm {0} ký tự.</value>
+  </data>
+  <data name="ERR_PHONE_EMPTY" xml:space="preserve">
+    <value>Số điện thoại không được để trống.</value>
+  </data>
+  <data name="ERR_PHONE_FORMAT" xml:space="preserve">
+    <value>Định dạng số điện thoại không phù hợp.</value>
+  </data>
+  <data name="ERR_PLAN_BLOCKED" xml:space="preserve">
+    <value>Đã bị trưởng đoàn cấm tham gia kế hoạch.</value>
+  </data>
+  <data name="ERR_PLAN_CANCEL_CANCELED" xml:space="preserve">
+    <value>Kế hoạch này đã bị huỷ trước đó.</value>
+  </data>
+  <data name="ERR_PLAN_CANCEL_CANNOT_JOIN" xml:space="preserve">
+    <value>Không thể tham gia kế hoạch đã bị huỷ.</value>
+  </data>
+  <data name="ERR_PLAN_CANCEL_READY" xml:space="preserve">
+    <value>Không thể huỷ kế hoạch đã chốt.</value>
+  </data>
+  <data name="ERR_PLAN_COMPANION_NAME_LENGTH" xml:space="preserve">
+    <value>Tên thành viên nhóm phải từ {0} - {1} ký tự.</value>
+  </data>
+  <data name="ERR_PLAN_CONFIRM_CANCELED" xml:space="preserve">
+    <value>Kế hoạch đã bị huỷ bỏ, không thể chốt danh sách thành vièn.</value>
+  </data>
+  <data name="ERR_PLAN_CONFIRM_CONFIRMED" xml:space="preserve">
+    <value>Kế hoạch đã chốt danh sách thành viên trước đó.</value>
+  </data>
+  <data name="ERR_PLAN_CONFIRM_PENDING" xml:space="preserve">
+    <value>Kế hoạch chưa vào trạng thái đăng ký, không thể chốt danh sách thành viên.</value>
+  </data>
+  <data name="ERR_PLAN_CONTACT_COUNT" xml:space="preserve">
+    <value>Kế hoạch phải lưu từ {0} - {1} thông tin liên lạc.</value>
+  </data>
+  <data name="ERR_PLAN_CONTACT_EMERGENCY" xml:space="preserve">
+    <value>Chưa chọn liên lạc khẩn cấp.</value>
+  </data>
+  <data name="ERR_PLAN_DEPART_DATE" xml:space="preserve">
+    <value>Thời điểm xuất phát phải cách thời điểm hiện tại {0} - {1} ngày.</value>
+  </data>
+  <data name="ERR_PLAN_EMERGENCY_DISTANCE" xml:space="preserve">
+    <value>Trung tâm cứu hộ ở quá xa ( &gt; {0}m)</value>
+  </data>
+  <data name="ERR_PLAN_EVENT_DESC_LENGTH" xml:space="preserve">
+    <value>Mô tả chi tiết của hoạt động phải từ {0} - {1} ký tự.</value>
+  </data>
+  <data name="ERR_PLAN_EVENT_DURATION" xml:space="preserve">
+    <value>Thời lượng của hoạt động phải từ {0} - {1}.</value>
+  </data>
+  <data name="ERR_PLAN_EVENT_SHORT_LENGTH" xml:space="preserve">
+    <value>Mô tả khái quát của hoạt động phải từ {0} - {1} ký tự.</value>
+  </data>
+  <data name="ERR_PLAN_EVENT_TYPE_INVALID" xml:space="preserve">
+    <value>Dạng hoạt động không hợp lệ.</value>
+  </data>
+  <data name="ERR_PLAN_FIXED_MEMBER_WEIGHT" xml:space="preserve">
+    <value>Kế hoạch với sĩ số dưới {0} chỉ có thể tạo nhóm cố định tối đa {1} người.</value>
+  </data>
+  <data name="ERR_PLAN_INVITE_INVITED" xml:space="preserve">
+    <value>Đã mời {0} tham gia trước đó.</value>
+  </data>
+  <data name="ERR_PLAN_INVITE_JOINED" xml:space="preserve">
+    <value>{0} đã tham gia kế hoạch rồi.</value>
+  </data>
+  <data name="ERR_PLAN_INVITE_METHOD" xml:space="preserve">
+    <value>Phương thức tham gia kế hoạch hiện tại không cho phép mời người dùng khác tham gia kế hoạch.</value>
+  </data>
+  <data name="ERR_PLAN_INVITE_SELF_BLOCKED" xml:space="preserve">
+    <value>{0} không muốn nhận lời mời tham gia kế hoạch này thêm nữa.</value>
+  </data>
+  <data name="ERR_PLAN_INVITE_STATUS_REGISTERING" xml:space="preserve">
+    <value>Kế hoạch không ở trạng thái chờ đăng ký, không thể mời người khác tham gia.</value>
+  </data>
+  <data name="ERR_PLAN_JOINED" xml:space="preserve">
+    <value>Đã tham gia kế hoạch này trước đó.</value>
+  </data>
+  <data name="ERR_PLAN_JOIN_FULL" xml:space="preserve">
+    <value>Kế hoạch đã đủ thành viên.</value>
+  </data>
+  <data name="ERR_PLAN_JOIN_MAX" xml:space="preserve">
+    <value>Kế hoạch chỉ còn {0} slot tham gia.</value>
+  </data>
+  <data name="ERR_PLAN_JOIN_METHOD_INVALID" xml:space="preserve">
+    <value>Phương thức tham gia không hợp lệ.</value>
+  </data>
+  <data name="ERR_PLAN_JOIN_METHOD_UNCHANGE" xml:space="preserve">
+    <value>Phương thức tham gia mới phải khác phương thức tham gia cũ.</value>
+  </data>
+  <data name="ERR_PLAN_JOIN_WEIGHT" xml:space="preserve">
+    <value>Trưởng đoàn chỉ cho phép nhóm tham gia có tối đa {0} người.</value>
+  </data>
+  <data name="ERR_PLAN_MEMBER_MAX_WEIGHT" xml:space="preserve">
+    <value>Số thành viên tối đa của 1 nhóm phải ít hơn {0} người.</value>
+  </data>
+  <data name="ERR_PLAN_MEMBER_MIN_WEIGHT" xml:space="preserve">
+    <value>Số thành viên tối đa của 1 nhóm phải nhiều hơn {0} người.</value>
+  </data>
+  <data name="ERR_PLAN_MEMBER_NOT_FOUND" xml:space="preserve">
+    <value>Không tìm thấy thông tin về thành viên.</value>
+  </data>
+  <data name="ERR_PLAN_MEMBER_RANGE" xml:space="preserve">
+    <value>Số thành viên của kế hoạch đoàn thể phải từ {0} - {1} người.</value>
+  </data>
+  <data name="ERR_PLAN_NAME_LENGTH" xml:space="preserve">
+    <value>Tên kế hoạch phải từ {0} - {1} ký tự.</value>
+  </data>
+  <data name="ERR_PLAN_NOTE_LENGTH" xml:space="preserve">
+    <value>Ghi chú kế hoạch dài tối đa {0} ký tự.</value>
+  </data>
+  <data name="ERR_PLAN_NOT_FOUND" xml:space="preserve">
+    <value>Không tìm thấy thông tin về kế hoạch.</value>
+  </data>
+  <data name="ERR_PLAN_NOT_INVITED" xml:space="preserve">
+    <value>Không được mời tham gia kế hoạch.</value>
+  </data>
+  <data name="ERR_PLAN_PERIOD" xml:space="preserve">
+    <value>Thời gian trải nghiệm phải nằm trong khoảng từ {0} - {1} ngày. </value>
+  </data>
+  <data name="ERR_PLAN_PERSONAL_JOIN" xml:space="preserve">
+    <value>Kế hoạch cá nhân chỉ có thể có 1 thành viên tham gia.</value>
+  </data>
+  <data name="ERR_PLAN_PERSONAL_MEMBER_WEIGHT" xml:space="preserve">
+    <value>Không thể tạo nhóm trong kế hoạch cá nhân.</value>
+  </data>
+  <data name="ERR_PLAN_PRIVATE" xml:space="preserve">
+    <value>Không thể tham gia kế hoạch riêng tư.</value>
+  </data>
+  <data name="ERR_PLAN_PROVIDER_DISTANCE" xml:space="preserve">
+    <value>Khoảng cách giữa nhà cung cấp và địa điểm du lịch quá xa ( &gt; {0}m)</value>
+  </data>
+  <data name="ERR_PLAN_READY_CANNOT_JOIN" xml:space="preserve">
+    <value>Kế hoạch đã chốt danh sách thành viên, không thể tham gia.</value>
+  </data>
+  <data name="ERR_PLAN_REGISTERING_JOIN_METHOD" xml:space="preserve">
+    <value>Chỉ có thể thay đổi phương thức tham gia khi kế hoạch ở trạng thái chờ đăng ký.</value>
+  </data>
+  <data name="ERR_PLAN_REMOVE_HOST" xml:space="preserve">
+    <value>Trưởng đoàn không thể rời kế hoạch.</value>
+  </data>
+  <data name="ERR_PLAN_REMOVE_MEMBER_REGISTERING" xml:space="preserve">
+    <value>Chỉ có thể loại thành viên khi kế hoạch đang ở trạng thái chờ đăng ký.</value>
+  </data>
+  <data name="ERR_PLAN_SCHEDULE_DURATION_FIRST" xml:space="preserve">
+    <value>Thời lượng lịch trình ngày đầu tiên đã vượt quá thời gian còn lại trong ngày.</value>
+  </data>
+  <data name="ERR_PLAN_SCHEDULE_DURATION_LAST" xml:space="preserve">
+    <value>Thời lượng lịch trình ngày cuối cùng đã vượt quá buổi trưa.</value>
+  </data>
+  <data name="ERR_PLAN_SCHEDULE_DURATION_MID" xml:space="preserve">
+    <value>Thời lượng lịch trình trong ngày không thể vượt quá {0}.</value>
+  </data>
+  <data name="ERR_PLAN_SCHEDULE_LENGTH" xml:space="preserve">
+    <value>Thời lượng lịch trình không trùng khớp với thời gian trải nghiệm.</value>
+  </data>
+  <data name="ERR_PLAN_SELF_REMOVE_REGISTERING" xml:space="preserve">
+    <value>Chỉ có thể rời khỏi kế hoạch khi kế hoạch đang ở trạng thái chờ đăng ký.</value>
+  </data>
+  <data name="ERR_PLAN_SOURCE_NOT_FOUND" xml:space="preserve">
+    <value>Không tìm thấy kế hoạch mẫu.</value>
+  </data>
+  <data name="ERR_PLAN_SURCHARGE_MAX_COUNT" xml:space="preserve">
+    <value>Kế hoạch chỉ có thể có tối đa {0} khoản phụ thu.</value>
+  </data>
+  <data name="ERR_PLAN_SURCHARGE_NOTE_LENGTH" xml:space="preserve">
+    <value>Ghi chú phụ thu phải từ {0} - {1} ký tự.</value>
+  </data>
+  <data name="ERR_PLAN_SURCHARGE_RANGE" xml:space="preserve">
+    <value>Khoản phụ thu phải từ {0} - {1} Gcoin.</value>
+  </data>
+  <data name="ERR_PLAN_UPDATE_STATUS_CANCEL" xml:space="preserve">
+    <value>Không thể cập nhật thông tin của kế hoạch đã bị huỷ.</value>
+  </data>
+  <data name="ERR_PLAN_UPDATE_STATUS_POST_PENDING" xml:space="preserve">
+    <value>Không thể cập nhật thông tin kế hoạch sau khi đã tham gia.</value>
+  </data>
+  <data name="ERR_PLAN_VERIFY_CANCELED" xml:space="preserve">
+    <value>Kế hoạch đã bị huỷ trước đó, không thể thực hiện.</value>
+  </data>
+  <data name="ERR_PLAN_VERIFY_DEPART_TIME" xml:space="preserve">
+    <value>Chức năng check in cho kế hoạch này chưa được mở khoá, vui lòng chờ đến {0}.</value>
+  </data>
+  <data name="ERR_PLAN_VERIFY_FLAWED" xml:space="preserve">
+    <value>Kế hoạch đã kết thúc, không thể thực hiện.</value>
+  </data>
+  <data name="ERR_PLAN_VERIFY_OUT_RANGE" xml:space="preserve">
+    <value>Check in thất bại. Vui lòng tới gần điểm du lịch hơn.</value>
+  </data>
+  <data name="ERR_PLAN_VERIFY_PRE_READY" xml:space="preserve">
+    <value>Kế hoạch chưa được chốt, không thể thực hiện.</value>
+  </data>
+  <data name="ERR_PLAN_VERIFY_VERIFIED" xml:space="preserve">
+    <value>Kế hoạch đã được xác nhận trước đó.</value>
+  </data>
+  <data name="ERR_PRODUCT_DESCRIPTION_LENGTH" xml:space="preserve">
+    <value>Mô tả sản phẩm dịch vụ phải nằm trong khoảng từ {0} - {1} ký tự.</value>
+  </data>
+  <data name="ERR_PRODUCT_NAME_LENGTH" xml:space="preserve">
+    <value>Tên sản phẩm/dịch vụ phải từ {0} - {1} ký tự.</value>
+  </data>
+  <data name="ERR_PRODUCT_NOT_FOUND" xml:space="preserve">
+    <value>Không tìm thấy sản phẩm.</value>
+  </data>
+  <data name="ERR_PRODUCT_PARTYSIZE_RANGE" xml:space="preserve">
+    <value>Số người phù hợp với sản phảm/dịch vụ phải nằm trong khoảng từ {0} - {1} người.</value>
+  </data>
+  <data name="ERR_PRODUCT_PERIOD_INVALID" xml:space="preserve">
+    <value>Không tìm thấy thời gian tương ứng.</value>
+  </data>
+  <data name="ERR_PRODUCT_PRICE_RANGE" xml:space="preserve">
+    <value>Đơn giá sản phẩm/dịch vụ phải nằm trong khoảng {0} - {1}đ.</value>
+  </data>
+  <data name="ERR_PRODUCT_TYPE_INVALID" xml:space="preserve">
+    <value>Loại sản phẩm/dịch vụ không thích hợp.</value>
+  </data>
+  <data name="ERR_PRODUCT_UPDATE_PRICE_UP" xml:space="preserve">
+    <value>Giá mới của sản phẩm/dịch vụ không thể cao hơn {0}% so với giá cũ.</value>
+  </data>
+  <data name="ERR_PROVIDER_ACCOUNT_EXISTED" xml:space="preserve">
+    <value>Nhà cung cấp này đã được cấp tài khoản trước đó.</value>
+  </data>
+  <data name="ERR_PROVIDER_INACTIVE" xml:space="preserve">
+    <value>Nhà cung cấp không còn hoạt động trên hệ thống.</value>
+  </data>
+  <data name="ERR_PROVIDER_NAME_LENGTH" xml:space="preserve">
+    <value>Tên nhà cung cấp phải từ {0} - {1} ký tự.</value>
+  </data>
+  <data name="ERR_PROVIDER_NEED_STANDARD" xml:space="preserve">
+    <value>Tiêu chuẩn nhà hàng/khách sạn phải từ {0}* - {1}*</value>
+  </data>
+  <data name="ERR_PROVIDER_NOT_FOUND" xml:space="preserve">
+    <value>Không tìm thấy thông tin nhà cung cấp.</value>
+  </data>
+  <data name="ERR_PROVIDER_NOT_FOUND_SOME" xml:space="preserve">
+    <value>Không tìm thấy thông tin của 1 số nhà cung cấp.</value>
+  </data>
+  <data name="ERR_PROVIDER_NO_STANDARD" xml:space="preserve">
+    <value>Loại hình nhà cung cấp này không có đánh giá tiêu chuẩn.</value>
+  </data>
+  <data name="ERR_PROVIDER_NO_SUPPORT_ACCESS" xml:space="preserve">
+    <value>Không hỗ trợ truy cập hệ thống đối với mô hình nhà cung cấp này.</value>
+  </data>
+  <data name="ERR_PROVIDER_NO_SUPPORT_PRODUCT" xml:space="preserve">
+    <value>Không hỗ trợ kinh doanh sản phẩm/dịch vụ đối với mô hình nhà cung cấp này.</value>
+  </data>
+  <data name="ERR_PROVIDER_TYPE_INVALID" xml:space="preserve">
+    <value>Mô hình dịch vụ không hợp lệ.</value>
+  </data>
+  <data name="ERR_PROVIDER_TYPE_UPDATE_CONFLICT" xml:space="preserve">
+    <value>Loại hình dịch vụ hiện tại của nhà cung cấp không cùng nhóm với loại hình mới.</value>
+  </data>
+  <data name="ERR_PROVINCE_NOT_FOUND" xml:space="preserve">
+    <value>Không tìm thấy tỉnh thành.</value>
+  </data>
+  <data name="ERR_SURCHARGE_ALREADY_UPDATED" xml:space="preserve">
+    <value>Khoản phụ thu đã được cập nhật hoá đơn trước đó.</value>
+  </data>
+  <data name="ERR_SURCHARGE_NOT_FOUND" xml:space="preserve">
+    <value>Không tìm thấy khoản phụ thu</value>
+  </data>
+  <data name="ERR_SURCHARGE_PLAN_CANCEL" xml:space="preserve">
+    <value>Kế hoạch đã huỷ, không thể cập nhật hoá đơn.</value>
+  </data>
+  <data name="ERR_SURCHARGE_PLAN_POST_READY" xml:space="preserve">
+    <value>Kế hoạch đã kết thúc, không thể cập nhật hoá đơn.</value>
+  </data>
+  <data name="ERR_SURCHARGE_PLAN_PRE_READY" xml:space="preserve">
+    <value>Kế hoạch chưa chốt, không thể cập nhật hoá đơn.</value>
+  </data>
+  <data name="ERR_TOKEN_INVALID" xml:space="preserve">
+    <value>Mã định danh không hợp lệ/đã hết hạn sử dụng.</value>
+  </data>
+  <data name="ERR_TOPUP_AMOUNT" xml:space="preserve">
+    <value>Số tiền nạp phải nằm trong khoảng {0} - {1}.</value>
+  </data>
+  <data name="ERR_TRANSACTION_NOT_FOUND" xml:space="preserve">
+    <value>Không tìm thấy thông tin giao dịch.</value>
+  </data>
+  <data name="ERR_TRANSACTION_RECEIVER_NOT_FOUND" xml:space="preserve">
+    <value>Không tìm thấy thông tin người nhận.</value>
+  </data>
+  <data name="ERR_TRANSACTION_VNPAY_AMOUNT" xml:space="preserve">
+    <value>Số tiền nạp không đồng bộ.</value>
+  </data>
+  <data name="ERR_TRANSACTION_VNPAY_EMPTY" xml:space="preserve">
+    <value>Không nhận được kết quả giao dịch.</value>
+  </data>
+  <data name="ERR_TRANSACTION_VNPAY_SIGNATURE" xml:space="preserve">
+    <value>Chữ ký không hợp lệ.</value>
+  </data>
+  <data name="ERR_TRANSACTION_VNPAY_STATUS" xml:space="preserve">
+    <value>Trạng thái giao dịch không hợp lệ.</value>
+  </data>
+  <data name="ERR_UNKNOWN" xml:space="preserve">
+    <value>Lỗi không rõ.</value>
+  </data>
+  <data name="SUC_TRANSACTION_VNPAY" xml:space="preserve">
+    <value>Giao dịch thành công.</value>
+  </data>
+  <data name="ERR_PLAN_PUBLISH_STATUS" xml:space="preserve">
+    <value>Kế hoạch chưa được xác nhận bởi hệ thống, không thể xuất bản.</value>
+  </data>
+  <data name="DESC_TRANSACTION_ORDER_COMPLETE" xml:space="preserve">
+    <value>Thanh toán đơn hàng {0}.</value>
+  </data>
+  <data name="DESC_TRANSACTION_PLAN_SURCHARGE" xml:space="preserve">
+    <value>Hoàn tiền phụ thu từ kế hoạch "{0}"</value>
+  </data>
+  <data name="ERR_ACCOUNT_UPDATE_EMPTY" xml:space="preserve">
+    <value>Hồ sơ mới trùng khớp hồ sơ cũ.</value>
+  </data>
+  <data name="ERR_ORDER_RATING_VALUE" xml:space="preserve">
+    <value>Đánh giá đơn hàng phải từ {0} - {1} sao.</value>
+  </data>
+  <data name="ERR_ORDER_COMMENT_LENGTH" xml:space="preserve">
+    <value>Nội dung đánh giá phải từ {0} - {1} ký tự.</value>
+  </data>
+  <data name="ERR_ORDER_RATING_NOT_SERVED" xml:space="preserve">
+    <value>Không thể đánh giá dơn hàng chưa được phục vụ.</value>
+  </data>
+  <data name="ERR_ORDER_RATING_FINISHED" xml:space="preserve">
+    <value>Đã quá hạn đánh giá đơn hàng.</value>
+  </data>
+  <data name="ERR_ORDER_RATING_RATED" xml:space="preserve">
+    <value>Đã đánh giá đơn hàng rồi.</value>
+  </data>
+  <data name="ERR_ACCOUNT_ALREADY_SIGNED_IN" xml:space="preserve">
+    <value>Tài khoản đã đăng nhập ở thiết bị khác.</value>
+  </data>
+  <data name="ERR_ACCOUNT_NAME_INVALID" xml:space="preserve">
+    <value>Tên tài khoản chứa ký tự không phù hợp.</value>
+  </data>
+  <data name="ERR_ORDER_RATING_CANCELED" xml:space="preserve">
+    <value>Đơn hàng đã bị huỷ, không thể đánh giá.</value>
+  </data>
+  <data name="ERR_ORDER_SERVE_INVALID" xml:space="preserve">
+    <value>Sau {0}, đơn hàng mới có thể đánh dấu đã phục vụ.</value>
+  </data>
+  <data name="DESC_ORDER_TRACE_PREPARED" xml:space="preserve">
+    <value>{0} xác nhận đơn hàng.</value>
+  </data>
+  <data name="DESC_ORDER_TRACE_SERVED" xml:space="preserve">
+    <value>{0} xác nhận đã hoàn thành phục vụ đơn hàng.</value>
+  </data>
+  <data name="DESC_ORDER_TRACE_FINISHED" xml:space="preserve">
+    <value>Đơn hàng đã hoàn tất, nhà cung cấp đã được thanh toán.</value>
+  </data>
+  <data name="DESC_NOTIFY_TITLE_ORDER_FINISHED" xml:space="preserve">
+    <value>Đơn hàng đã được thanh toán.</value>
+  </data>
+  <data name="DESC_NOTIFY_BODY_ORDER_FINISHED" xml:space="preserve">
+    <value>Đơn hàng {0} đã được thanh toán.</value>
+  </data>
+</root>

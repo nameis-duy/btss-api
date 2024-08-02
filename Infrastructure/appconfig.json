@@ -1,0 +1,43 @@
+{
+  "USE_FIXED_OTP": true,
+  "DEFAULT_PRESTIGE_POINT": 50,
+  "MIN_TOPUP": 15,
+  "MAX_TOPUP": 1000000,
+  "BUDGET_ASSURED_PCT": 20,
+  "HOLIDAY_MEAL_UP_PCT": 10,
+  "HOLIDAY_LODGING_UP_PCT": 50,
+  "HOLIDAY_RIDING_UP_PCT": 10,
+  "ORDER_DATE_MIN_DIFF": 3,
+  "ORDER_CANCEL_DATE_DURATION": 3,
+  "MEMBER_REFUND_SELF_REMOVE_1_DAY_PCT": 50,
+  "ORDER_REFUND_CUSTOMER_CANCEL_1_DAY_PCT": 70,
+  "ORDER_REFUND_CUSTOMER_CANCEL_2_DAY_PCT": 40,
+  "PRODUCT_MAX_PRICE_UP_PCT": 20,
+  "HOLIDAYS": [
+    {
+      "From": "2024-01-01",
+      "To": "2024-01-01",
+      "Name": "Tết Dương lịch"
+    },
+    {
+      "From": "2024-02-07",
+      "To": "2024-02-12",
+      "Name": "Tết Âm lịch"
+    },
+    {
+      "From": "2024-04-18",
+      "To": "2024-04-18",
+      "Name": "Giỗ tổ Hùng Vương"
+    },
+    {
+      "From": "2024-04-30",
+      "To": "2024-05-01",
+      "Name": "Giải phóng Miền Nam - Quốc tế lao động"
+    },
+    {
+      "From": "2024-09-02",
+      "To": "2024-09-02",
+      "Name": "Quốc Khánh"
+    }
+  ]
+}
